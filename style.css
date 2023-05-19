@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#025464;
+    color: #ffffff;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: #537188;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #E57C23;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:#E57C23;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar active{
+    color:#95a9b9;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    height: 100vh;
+}
+
+.photo{
+    height: 400px;
+    float: right;
+    margin-top: -500px;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #E8AA42;
+}
+
+.home-content p{
+    font-size: 16px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    margin-top: -570px;
+    margin-right: 100px;
+    float: right;
+  }
+
+aside h3{
+    color: #E8AA42;
+}
+
+.portfolio, .contact, .about{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    height: 100vh;
+}
+
+.portfolio-content, .contact-content, .about-content{
+    max-width: 600px;
+}
+
+.portfolio-content h2, .contact-content h2, .about-content h2{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.portfolio-content p, .contact-content p, .about-content p{
+    font-size: 16px;
+}
+
+.portfolio ul, li, a{
+    text-decoration: none;
+    color: #E57C23;
+}
+
+.portfolio img{
+    margin-top: 20px;
+    width:400px;
+}
+
+.footer{
+    background: #95a9b9;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
